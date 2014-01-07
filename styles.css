@@ -1,0 +1,201 @@
+body {
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: .01rem;
+  -webkit-font-smoothing: antialiased;
+  color: #2B2B22;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid;
+  color: #2D42D8;
+
+}
+
+a:visited {
+  color: #7111C9;
+}
+
+a:active {
+  color: red;
+}
+
+a:hover, a:focus {
+  color: #A75D00;
+}
+
+* {
+  line-height: 1.4;
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+
+.primary-plea,
+.secondary-plea,
+h1, h2, h3, h4,
+.subtle-header {
+  font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.subtle-header {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  color: #666;
+  font-weight: 300;
+}
+
+section {
+  margin: 0;
+  padding: 2em;
+}
+
+section > * {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.introduction {
+  background-color: #f0f0dd;
+}
+
+.call-to-donate {
+  background-color: #cccc99;
+}
+
+.amazon-revenue {
+  background-color: white;
+}
+
+.amazon-revenue-title {
+  color: #E47911;
+  font-weight: 700;
+  font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.further-information {
+  background-color: #f0f0dd;
+}
+
+.further-information h3 {
+  margin-bottom: 0.5em;
+}
+
+.primary-plea {
+  font-size: 2em;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.secondary-plea {
+  font-size: 1.25em;
+  line-height: 1.1;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  color: #444;
+}
+
+.donation-method {
+  display: inline-block;
+  width: 22%;
+  vertical-align: top;
+  float: left;
+  margin-right: 3%;
+  font-size: .7em;
+  border-top: 1px solid #999;
+  padding-top: 1em;
+}
+
+.donation-method-header {
+  font-size: 1em;
+  line-height: 1.4;
+  font-weight: 300;
+  min-height: 5.6em;
+}
+
+.donation-method-header em {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.donation-method-detail:before {
+  content: "☞ ";
+}
+
+.donation-method-cta {
+  margin: 1.4em 0;
+}
+
+.donate-now {
+  text-align: center;
+  margin: 1em auto 3em;
+}
+
+.button.donate-now-button,
+.button.donate-now-button:hover,
+.button.donate-now-button:focus {
+  padding: 1em 3em 1.5em;
+  background-color: rgba(43, 43, 34, 0.5);
+  color: #f0f0dd;
+  background-color: rgba(0, 221, 0, 0.5);
+  color: #2B2B22;
+  border: none;
+  display: inline-block;
+}
+
+.button.donate-now-button:hover,
+.button.donate-now-button:focus {
+  background-color: rgba(43, 43, 34, 1);
+  background-color: rgba(0, 221, 0, 1);
+}
+
+.donate-now-button > * {
+  display: block;
+  font-style: normal;
+  margin: 0;
+}
+
+.donate-now-button em {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.donate-now-button strong {
+  font-weight: 300;
+  font-size: 0.8em;
+  color: white;
+}
+
+.button {
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 0.5em;
+  padding: 0.3em 0.5em 0.4em;
+  font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: normal;
+  font-style: normal;
+  background-color: rgba(240, 240, 221, 0.5);
+  color: #2B2B22;
+  -webkit-transition: background-color 0.07s ease-in;
+  -moz-transition: background-color 0.07s ease-in;
+  -o-transition: background-color 0.07s ease-in;
+  transition: background-color 0.07s ease-in;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #f0f0dd;
+  color: #2B2B22;
+}
