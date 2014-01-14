@@ -106,22 +106,39 @@ section > * {
   color: #444;
 }
 
+.donation-methods:after {
+  clear: both;
+  content: "\00a0";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
 .donation-method {
   display: inline-block;
-  width: 22%;
+  width: 19%;
   vertical-align: top;
   float: left;
-  margin-right: 3%;
+  margin-right: 2%;
   font-size: .7em;
   border-top: 1px solid #999;
   padding-top: 1em;
+}
+
+.donation-method.primary {
+  width: 35%;
 }
 
 .donation-method-header {
   font-size: 1em;
   line-height: 1.4;
   font-weight: 300;
-  min-height: 5.6em;
+  min-height: 7em;
+}
+
+.donation-method.primary .donation-method-header {
+  font-size: 1.3em;
+  min-height: 2.69em;
 }
 
 .donation-method-header em {
@@ -134,30 +151,22 @@ section > * {
 }
 
 .donation-method-cta {
-  margin: 1.4em 0;
+  margin: 1em 0;
 }
 
-.donate-now {
-  text-align: center;
-  margin: 1em auto 3em;
-}
-
-.button.donate-now-button,
-.button.donate-now-button:hover,
-.button.donate-now-button:focus {
+.button.donate-now-button {
   padding: 1em 3em 1.5em;
-  background-color: rgba(43, 43, 34, 0.5);
-  color: #f0f0dd;
   background-color: rgba(0, 221, 0, 0.5);
   color: #2B2B22;
   border: none;
   display: inline-block;
+  text-align: center;
 }
 
 .button.donate-now-button:hover,
 .button.donate-now-button:focus {
-  background-color: rgba(43, 43, 34, 1);
   background-color: rgba(0, 221, 0, 1);
+  color: #2B2B22;
 }
 
 .donate-now-button > * {
@@ -178,6 +187,7 @@ section > * {
 }
 
 .button {
+  display: inline-block;
   text-decoration: none;
   border: 1px solid;
   border-radius: 0.5em;
