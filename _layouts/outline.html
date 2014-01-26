@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% if page.title %}
+    <title>{{page.title}} – ICCF Holland</title>
+  {% else %}
+    <title>ICCF Holland</title>
+  {% endif %}
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+  html, body {
+    height: 100%;
+  }
+  #page-wrapper {
+    position: relative;
+    min-height: 100%;
+    margin-bottom: -78px;
+  }
+  .outline {
+    max-width: 500px;
+    padding: 2em;
+    margin: 0 auto;
+  }
+  </style>
+</head>
+<body>
+<div id="page-wrapper">
+{% include header.html %}
+<div class="outline">
+{{content}}
+</div>
+</div>
+{% include footer.html %}
+</body>
+</html>
